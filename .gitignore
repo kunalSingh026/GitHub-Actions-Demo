@@ -1,0 +1,13 @@
+# Dependency directory
+# We don't push this because it's huge; 'npm install' recreates it
+node_modules/
+
+# Debug logs
+npm-debug.log*
+
+# OS files
+.DS_Store
+thumbs.db
+
+# Optional: if you use a secret file later
+.env
